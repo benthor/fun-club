@@ -1,4 +1,4 @@
--- io module required fro reading from stdin
+-- io module required for reading from stdin
 require 'io'
 
 -- hashtable where we keep the frequencies in
