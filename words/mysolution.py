@@ -16,7 +16,7 @@ def count(iterator):
 
 def rank(d):
     # get tuples from dictionary and sort by second element in each tuple
-    return sorted([x for x in d.items()], key=lambda y: y[1], reverse=True)
+    return sorted(d.items(), key=lambda y: y[1], reverse=True)
 
 [print("%s: %i" % (tup[0],tup[1])) for tup in rank(count(yieldwords))[:10]]
 
